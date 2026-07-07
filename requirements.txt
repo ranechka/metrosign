@@ -1,0 +1,11 @@
+requests>=2.0
+luma.led_matrix>=1.0
+# Optional / hardware-related dependencies (may require system build tools or Rust)
+# On Raspberry Pi you may prefer the distro packages for spidev (python3-spidev)
+spidev; platform_system=="Linux"
+smbus2; platform_system=="Linux"
+RPi.GPIO; platform_system=="Linux"
+# cbor2 may require Rust to build on some platforms if wheels aren't available
+cbor2
+# Imaging dependency used by luma
+Pillow
