@@ -2,6 +2,11 @@
 
 A train arrivals board for your local WMATA Metro stop.
 
+
+<img width="654" height="368" alt="20260709_1138541" src="https://github.com/user-attachments/assets/47aeb13a-1771-43f9-b68c-5e5648a0d3c6" />
+
+
+
 MetroSign is a Raspberry Pi LED matrix display application that shows WMATA train arrival predictions on a MAX7219 panel. It started out with a local, messy script, and then I polished it up with Copilot to make it installable.
 
 I used a Raspberry Pi Zero W with Raspbian 13 Headless for this project, and a panel of 4 displays.
