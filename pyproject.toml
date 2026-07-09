@@ -9,11 +9,16 @@ description = "Raspberry Pi LED matrix display for WMATA train arrival predictio
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-  { name = "Your Name", email = "you@example.com" }
+  { name = "ranechka", email = "22230129+ranechka@users.noreply.github.com" }
 ]
 dependencies = [
   "requests>=2.0",
-  "luma.led_matrix>=1.0"
+  "luma.led_matrix>=1.0",
+  "Pillow>=10.0",
+  "cbor2",
+  "spidev; platform_system=='Linux'",
+  "smbus2; platform_system=='Linux'",
+  "RPi.GPIO; platform_system=='Linux'"
 ]
 
 [project.scripts]
